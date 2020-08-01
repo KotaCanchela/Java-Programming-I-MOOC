@@ -6,16 +6,16 @@ public class Story {
         System.out.println("I will tell you a story, but I need some information first.");
         System.out.println("What is the main character called?");
 
-        String main_character = scanner.nextLine();
+        String mainCharacter = scanner.nextLine();
         System.out.println("What is their job?");
-        String character_job = scanner.nextLine();
+        String characterJob = scanner.nextLine();
         System.out.println("Here is the story:");
 
-        System.out.println("Once upon a time there was " + main_character + ", who was " + character_job + ".");
+        System.out.println("Once upon a time there was " + mainCharacter + ", who was " + characterJob + ".");
 
-        System.out.println("On the way to work, " + main_character + " reflected on life.");
+        System.out.println("On the way to work, " + mainCharacter + " reflected on life.");
 
-        System.out.println("Perhaps " + main_character + " will not be " + character_job + " forever.");
+        System.out.println("Perhaps " + mainCharacter + " will not be " + characterJob + " forever.");
 
     }
 }
