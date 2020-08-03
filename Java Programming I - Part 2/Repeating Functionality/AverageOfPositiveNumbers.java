@@ -9,6 +9,7 @@ public class AverageOfPositiveNumbers {
         int numberSum = 0;
         int numTracker = 0;
         while (true) {
+            System.out.println("Give a number (0 to exit): ");
             int input = Integer.valueOf(scan.nextLine());
             if (input == 0) {
                 break;
