@@ -20,7 +20,7 @@ public class RemoveLast {
         System.out.println(list);
     }
     public static void removeLast(ArrayList<String> removeInt) {
-        // Method removes last value in a list.
+        // Method  removes last value in a list.
         if (removeInt.size() == 0) {
             return;
         }
