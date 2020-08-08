@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Discovering errors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lists" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Using Strings" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
