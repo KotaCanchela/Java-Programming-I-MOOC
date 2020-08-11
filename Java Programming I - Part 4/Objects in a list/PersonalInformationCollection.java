@@ -22,7 +22,7 @@ public class PersonalInformationCollection {
             infoCollection.add(new PersonalInformation(firstName, lastName, idNumber));
         }
         // Then print the collected personal information so that each entered object is printed in the following format:
-        // first and last names separated by a space (you don't print the identification number).
+        // first and last names separated by a space (without the identification number).
         System.out.println("");
         for (PersonalInformation info: infoCollection) {
             System.out.println(info.getFirstName() + " " + info.getLastName());
