@@ -4,6 +4,7 @@ public class Clock {
         Timer timer = new Timer();
 
         while (true) {
+            // Timer runs endlessly, counting every 10ms
             System.out.println(timer);
             timer.advance();
 
