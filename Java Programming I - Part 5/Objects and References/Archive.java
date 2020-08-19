@@ -31,8 +31,7 @@ public class Archive {
         Archive archiveObject = (Archive) compared;
 
         // Compares name and identifier string of identifier object, returns true if they are equal
-        if (this.identifier.equals(archiveObject.identifier)
-        && this.name.equals(archiveObject.name)) {
+        if (this.identifier.equals(archiveObject.identifier)) {
             return true;
         }
 

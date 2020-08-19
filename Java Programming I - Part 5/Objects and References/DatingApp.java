@@ -1,0 +1,19 @@
+public class DatingApp {
+    public static void main(String[] args) {
+        SimpleDateApp date = new SimpleDateApp(13, 2, 2015);
+        System.out.println("Friday of the examined week is: " + date);
+
+        SimpleDateApp newDate = date.afterNumberOfDays(7);
+
+        int week = 1;
+        while (week <= 7) {
+            System.out.println("Friday after " + week + " weeks is " + newDate);
+            newDate = newDate.afterNumberOfDays(7);
+            week++;
+        }
+
+        System.out.println("The date after 790 days from the examined friday is...");
+        System.out.println("Try " + date.afterNumberOfDays(790));
+    }
+}
+
