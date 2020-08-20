@@ -14,7 +14,7 @@ public class Package {
     public int totalWeight() {
         // Returns the total weight of the package's gifts
         int totalWeight = 0;
-        for (Gift number: packageGifts) {
+        for (Gift number: this.packageGifts) {
             totalWeight += number.getWeight();
         }
         return totalWeight;
