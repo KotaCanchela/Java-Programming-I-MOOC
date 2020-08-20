@@ -21,9 +21,13 @@ public class Stack {
 
     public ArrayList<String> values() {
         // Returns the values contained in the stack as a list
-        for (String value: this.stack) {
-            System.out.println(value);
-        }
+        return this.stack;
+    }
+
+    public String take() {
+        // Returns the top most value (last value added) and removes it from the stack
+        int lastValue = this.stack.size() - 1;
+        return this.stack.remove(lastValue);
     }
 }
 
