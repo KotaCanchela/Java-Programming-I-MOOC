@@ -18,6 +18,7 @@ public class UserInterface {
                 break;
             }
 
+
             this.wordSet.add(word);
         }
 

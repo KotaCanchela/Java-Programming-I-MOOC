@@ -7,5 +7,6 @@ public class WordSetRun {
         UserInterface newUserInterface = new UserInterface(wordSet, scan);
 
         newUserInterface.start();
+        System.out.println(wordSet.palindromes());
     }
 }
