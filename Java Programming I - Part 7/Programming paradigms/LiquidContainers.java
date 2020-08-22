@@ -19,7 +19,7 @@ public class LiquidContainers {
                 break;
             }
 
-            String [] parts = input.split(" ");
+            String[] parts = input.split(" ");
 
             String command = parts[0];
             int amount = Integer.valueOf(parts[1]);
