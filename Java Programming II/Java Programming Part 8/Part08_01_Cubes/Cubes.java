@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Cubes {
     public static void main(String[] args) {
@@ -13,6 +12,7 @@ public class Cubes {
             }
             // if num != end then treat it as an integer
             int numCube = Integer.parseInt(num);
+            // Cube the number and print it
             int cubed = numCube * numCube * numCube;
             System.out.println(cubed);
 
