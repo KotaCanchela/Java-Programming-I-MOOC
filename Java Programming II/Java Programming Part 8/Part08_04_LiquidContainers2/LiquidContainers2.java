@@ -23,18 +23,20 @@ public class LiquidContainers2 {
             }
 
             if (command.equals("move")) {
-                int excess = amount + secondContainer.contains();
-                if (excess >= 100) {
-                    int add = firstContainer.contains();
-                    secondContainer.add(excess - 100);
-                    firstContainer.remove(excess - 100);
-                } else if (amount >= firstContainer.contains()){
-                    secondContainer.add(firstContainer.contains());
-                    firstContainer.remove(firstContainer.contains());
-                } else {
+                int checkCont = firstContainer.contains();
+                if (checkCont + amount > 100) {
+                    int excess = (checkCont + amount) - 100;
+                    System.out.println(excess);
+                    firstContainer.remove(excess);
+                    secondContainer.add(excess);
+                } else if (amount <= firstContainer.contains()){
                     firstContainer.remove(amount);
                     secondContainer.add(amount);
+                } else {
+                    secondContainer.add(firstContainer.contains());
+                    firstContainer.remove(firstContainer.contains());
                 }
+
             }
 
             if (command.equals("remove")) {
@@ -43,3 +45,4 @@ public class LiquidContainers2 {
         }
     }
 }
+
