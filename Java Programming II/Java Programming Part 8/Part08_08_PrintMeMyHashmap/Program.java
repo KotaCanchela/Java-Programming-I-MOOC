@@ -10,7 +10,7 @@ public class Program {
 
         printKeys(hashmap);
         printKeysWhere(hashmap, "ll"); // expected to return "hello"
-        printValuesOfKeysWhere(hashmap, "ll"); // expected to return the value of "hello" 
+        printValuesOfKeysWhere(hashmap, "ll"); // expected to return the value of "hello"
 
     }
 
