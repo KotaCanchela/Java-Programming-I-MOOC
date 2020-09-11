@@ -1,16 +1,12 @@
+import java.util.Scanner;
+
 public class IOUrun {
     public static void main(String[] args) {
-        IOU testIOU = new IOU();
+        IOU mattsIOU = new IOU();
+        mattsIOU.setSum("Arthur", 51.5);
+        mattsIOU.setSum("Arthur", 10.5);
 
-        testIOU.setSum("James", 50.0);
-        testIOU.setSum("Michael", 30);
-
-        System.out.println(testIOU.howMuchDoIOweTo("James"));
-        System.out.println(testIOU.howMuchDoIOweTo("Michael"));
-
-        testIOU.setSum("James", 20);
-
-        System.out.println(testIOU.howMuchDoIOweTo("James"));
+        System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 
     }
 }
