@@ -5,12 +5,12 @@ public class LiquidContainers {
         Scanner scan = new Scanner(System.in);
         int firstContainer = 0;
         int secondContainer = 0;
-        int capacity= 100;
+        int capacity = 100;
         while (true) {
             // Print the values of both containers
             System.out.println("First: " + firstContainer + "/" + capacity);
             System.out.println("Second: " + secondContainer + "/" + capacity);
-
+            System.out.println("What would you like to do? (add, move, remove) + amount");
             String input = scan.nextLine();
 
             if (input.equals("quit")) {

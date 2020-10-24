@@ -8,8 +8,8 @@ public class AverageOfPositiveNumbers {
 
         while (true) {
             // Prompt user input for an integer
+            System.out.println("Please enter a number. (0 to quit)");
             int num = Integer.valueOf(scan.nextLine());
-
             // 0 to break
             if (num == 0) {
                 break;
@@ -26,7 +26,7 @@ public class AverageOfPositiveNumbers {
             System.out.println("Cannot calculate the average");
         } else {
             double average = (double) sum / count;
-            System.out.println(average);
+            System.out.println("The average calculated from the numbers is: " + average);
         }
     }
 }
