@@ -9,7 +9,6 @@ public class LicensePlate {
     public LicensePlate(String country, String liNumber) {
         this.liNumber = liNumber;
         this.country = country;;
-
     }
 
     @Override
