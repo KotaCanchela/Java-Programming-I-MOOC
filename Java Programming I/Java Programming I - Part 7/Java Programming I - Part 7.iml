@@ -3,8 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Objects within objects" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Separating UI from program logic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programming paradigms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Larger Exercises" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
