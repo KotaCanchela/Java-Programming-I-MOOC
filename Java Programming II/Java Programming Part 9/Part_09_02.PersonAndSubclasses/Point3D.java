@@ -16,8 +16,5 @@ public class Point3D extends Point {
         return super.manhattanDistanceFromOrigin() + Math.abs(z);
     }
 
-    @Override
-    public String toString() {
-        return "(" + this.location() + ") distance " + this.manhattanDistanceFromOrigin();
-    }
+
 }
