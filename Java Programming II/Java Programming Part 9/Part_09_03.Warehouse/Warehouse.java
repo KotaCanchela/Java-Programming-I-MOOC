@@ -1,7 +1,7 @@
 public class Warehouse {
 
-    private double capacity;
-    private double balance;
+    protected double capacity;
+    protected double balance;
 
     public Warehouse(double capacity) {
         // Creates an empty warehouse which has the capacity provided as a parameter
