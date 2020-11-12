@@ -11,7 +11,6 @@ public class Warehouse {
         } else {
             this.capacity = 0.0;
         }
-
         this.balance = 0.0;
     }
 
@@ -37,7 +36,7 @@ public class Warehouse {
             return;
         }
         if (amount <= howMuchSpaceLeft()) {
-            this.balance = this.balance + amount;
+            this.balance += amount;
         } else {
             this.balance = this.capacity;
         }

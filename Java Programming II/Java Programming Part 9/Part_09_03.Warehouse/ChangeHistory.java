@@ -20,7 +20,7 @@ public class ChangeHistory {
     }
 
     public String toString() {
-        return warehouseStatus.toString();
+        return this.warehouseStatus.toString();
     }
 
     public double maxValue() {

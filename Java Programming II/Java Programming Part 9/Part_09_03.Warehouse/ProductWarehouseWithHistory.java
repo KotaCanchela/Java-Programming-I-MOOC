@@ -1,16 +1,16 @@
 public class ProductWarehouseWithHistory extends ProductWarehouse {
-    ChangeHistory histories;
+    private ChangeHistory histories;
 
     public ProductWarehouseWithHistory(String productName, double capacity, double initialBalance) {
         super(productName, capacity);
         this.histories = new ChangeHistory();
-        initialBalance = getBalance();
+        this.addToWarehouse(initialBalance);
         this.histories.add(initialBalance);
 
     }
 
-    public ChangeHistory history() {
+    public String history() {
         // Returns the product history
-        return this.histories;
+            return this.histories.toString();
     }
 }
