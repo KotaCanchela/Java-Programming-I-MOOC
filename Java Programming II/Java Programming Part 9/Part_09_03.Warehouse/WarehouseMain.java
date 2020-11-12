@@ -10,6 +10,7 @@ public class WarehouseMain {
         System.out.println(juice);
 
         System.out.println(juice.history());
+        juice.printAnalysis();
 
     }
 }
